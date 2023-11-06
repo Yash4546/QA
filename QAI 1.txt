@@ -1,7 +1,3 @@
-from qiskit import QuantumCircuit, transpile
-from qiskit.tools.jupyter import *
-from qiskit.visualization import *
-from ibm_quantum_widgets import *
 from qiskit_ibm_runtime import QiskitRuntimeService, Sampler, Estimator, Session, Options
 
 service = QiskitRuntimeService(channel="ibm_quantum")
